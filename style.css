@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Condensed:ital,wght@1,300&display=swap');
+
+*{
+    background-color: #646363;
+    align-items: center;
+}
+h2{
+    color: #ffffff;
+    font-family: Merriweather;
+}
+#consult{
+    background-color: green;
+    border: none;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+#consult:hover{
+    transform: rotate(360deg);
+}
